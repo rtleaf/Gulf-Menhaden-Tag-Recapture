@@ -90,7 +90,7 @@ From Liljestrand Master's Thesis: "Magnet efficiency experiments were conducted 
 
 A small and unique third source of data in the archived data was a subset of recapture data that included fork length of fish, upon collection by the plant. The tag and recapture component of the data was integrated into the tag and recapture histories of adult individuals. 
 
-The utility of these data are limited for analysis of growth or to understand how cathability is influenced by the length of the fish. However, they are useful for indicating what the experimenters considered an "adult" fish length to be.
+The utility of these data are limited for analysis of growth or to understand how catchability is influenced by the length of the fish. However, they are useful for indicating what the experimenters considered an "adult" fish length to be.
 
 ##### The variables associated with the tag and recapture histories of adults with fork-length
 
@@ -101,13 +101,13 @@ All of the variables are the same as the tag and recapture histories of adults, 
 
 #### Magnitude of mark and recapture data
 
-In comparison to the magnitude of tagged and recaptured individuals used by Liljestrand et al., the data we have synthesized has fewer number of recaptures (Fig. 3, 4). However, the overall rate of recapture is generally high (Table 1 and 2) - fewer fish were tagged in the Gulf of Mexico, than in the mid-Atlantic. One difference in the modeling approach we proprose to use that contrasts that of Liljestrand et al. is that we will not estimate movement parameters - we don't have geographic movement parameters in these data. Ommitting these parameters in the modeling effort should improve the ability of the model to derive precise estimates of mortality.
+In comparison to the magnitude of tagged and recaptured individuals used by Liljestrand et al., the data we have synthesized has fewer number of recaptures (Fig. 3, 4). However, the overall rate of recapture is generally high (Table 1 and 2) - fewer fish were tagged in the Gulf of Mexico, than in the mid-Atlantic. One difference in the modeling approach we propose to use that contrasts that of Liljestrand et al. is that we will not estimate movement parameters - we don't have geographic movement parameters in these data. Omitting these parameters in the modeling effort should improve the ability of the model to derive precise estimates of mortality.
 
-Having positive rates of recapture (~3%) is a necessary characteristic of using mark and recapture models. Another aspect of the tag-recapture work, that is necessary for using contemporary models for parameter estimation, is to have recapture occurences at many sampling efforts. Figure 2 indicates that both life stages have times 'at large' of less than and greater than 500 days. 
+Having positive rates of recapture (~3%) is a necessary characteristic of using mark and recapture models. Another aspect of the tag-recapture work, that is necessary for using contemporary models for parameter estimation, is to have recapture occurrences at many sampling efforts. Figure 2 indicates that both life stages have times 'at large' of less than and greater than 500 days. 
 
 #### Evaluation of observation error
 
-Mark recapture modeling attempts to determine (at least) two related parameters - survival and probability of recapture. The second paramter (probability of recapture) is in part determined by observation error. The plant- and year-specific capture probability derived from the trial data, different plants have varying ability for tag detection. These modeled parameters, derived from the data, can be incorporated into the model, as Liljestrand et al. has done.
+Mark recapture modeling attempts to determine (at least) two related parameters - survival and probability of recapture. The second parameter (probability of recapture) is in part determined by observation error. The plant- and year-specific capture probability derived from the trial data, different plants have varying ability for tag detection. These modeled parameters, derived from the data, can be incorporated into the model, as Liljestrand et al. has done.
 
 In conclusion, the magnitude of the data (number of recaptures, magnet trials) and its structure (varying times 'at large', stage specific tagging) are likely appropriate for modeling. I would recommend that this be attempted.
 

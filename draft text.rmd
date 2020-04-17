@@ -1,0 +1,51 @@
+
+```{r monthly.summary, echo=FALSE, message=FALSE, warning=FALSE}
+require(knitr)
+require(kableExtra)
+require(tidyverse)
+
+course.eval <- read.csv("monthly.summary.stats.csv")
+course.eval <- course.eval[,-1]
+
+names(course.eval) <- c("Year", "Month", "Number of Fish Examined")
+course.eval <- course.eval %>% group_by(Year) %>% summarise(`Month Start` = min(Month),
+                                             `Month End` = max(Month), 
+                                             `Number of Fish Examined` = sum(`Number of Fish Examined`))
+
+knitr::kable(course.eval) %>%
+ # column_spec(1, bold = T, width = "5em") %>%
+  kable_styling(bootstrap_options = "striped", full_width = F, position = "center")
+```
+
+
+
+
+
+
+
+```{r sampling.summary, echo=FALSE, message=FALSE, warning=FALSE}
+require(knitr)
+require(kableExtra)
+require(tidyverse)
+
+course.eval <- read.csv("summary.stats.csv")
+course.eval <- course.eval[,-1]
+
+names(course.eval) <- c("Year",	"Minimum FL (cm)",	"Maximum FL (cm)", 
+                        "# Fish Measured", "# Determine Maturity", 
+                        "# Sex Deterimed", "# Age Determined")
+
+knitr::kable(course.eval[,c(1,2,3,4,7)]) %>%
+ # column_spec(1, bold = T, width = "5em") %>%
+  kable_styling(bootstrap_options = "striped", full_width = FALSE, position = "center")
+```
+
+
+
+
+![Length (Fork Length) composition collected from the commercial fishery. The orange polygons are the aggregated (all year) density polygons provided for comparison to the annual (panel specific) length compositions.](length.comps.panel.png)
+
+
+
+![Boxplot of Fork length (cm) of collected Atlantic Chub Mackerel caught during the fishing season.](month.FL.boxplot.png)
+
